@@ -2,76 +2,50 @@
 
 ## OpenConnect VPN Server
 
-Ö÷Ò³£º[http://www.infradead.org/ocserv/](http://www.infradead.org/ocserv/)
+ä¸»é¡µï¼š[http://www.infradead.org/ocserv/](http://www.infradead.org/ocserv/)
 
-ÏÂÔØ£º[http://www.infradead.org/ocserv/download.html](http://www.infradead.org/ocserv/download.html)
+ä¸‹è½½ï¼š[http://www.infradead.org/ocserv/download.html](http://www.infradead.org/ocserv/download.html)
 
-¸üÐÂÀúÊ·£º[http://www.infradead.org/ocserv/changelog.html](http://www.infradead.org/ocserv/changelog.html)
+æ›´æ–°åŽ†å²ï¼š[http://www.infradead.org/ocserv/changelog.html](http://www.infradead.org/ocserv/changelog.html)
 
-Ô´Âë£º[https://gitlab.com/ocserv/ocserv.git](https://gitlab.com/ocserv/ocserv.git)
+æºç ï¼š[https://gitlab.com/ocserv/ocserv.git](https://gitlab.com/ocserv/ocserv.git)
 
 ## OpenConnect VPN Client
 
-Ö÷Ò³£º[http://www.infradead.org/openconnect/](http://www.infradead.org/openconnect/)
+ä¸»é¡µï¼š[http://www.infradead.org/openconnect/](http://www.infradead.org/openconnect/)
 
-ÏÂÔØ£º[http://www.infradead.org/openconnect/download.html](http://www.infradead.org/openconnect/download.html)
+ä¸‹è½½ï¼š[http://www.infradead.org/openconnect/download.html](http://www.infradead.org/openconnect/download.html)
 
-¸üÐÂÀúÊ·£º[http://www.infradead.org/openconnect/changelog.html](http://www.infradead.org/openconnect/changelog.html)
+æ›´æ–°åŽ†å²ï¼š[http://www.infradead.org/openconnect/changelog.html](http://www.infradead.org/openconnect/changelog.html)
 
-Ô´Âë£º[http://git.infradead.org/users/dwmw2/openconnect.git](http://git.infradead.org/users/dwmw2/openconnect.git)
+æºç ï¼š[http://git.infradead.org/users/dwmw2/openconnect.git](http://git.infradead.org/users/dwmw2/openconnect.git)
 
 ## [Cisco AnyConnect VPN Client](https://cnlic.com/share/client.html)
 
-## ×¢ÒâÊÂí—
+## æ³¨æ„äº‹é …
 
-1¡¢0.10.5 ¼°Ö®Ç°°æ±¾ocservÐèÒªÐÞ¸Äsrc/vpn.hÀ´Ö§³Ö³¬¹ý96ÐÐ(ocservÄ¬ÈÏÖµ)µ«²»³¬¹ý200ÐÐ(Cisco AnyConnect×î´óÖµ)µÄÂ·ÓÉ±í:
+1ã€0.10.5 åŠä¹‹å‰ç‰ˆæœ¬ocservéœ€è¦ä¿®æ”¹src/vpn.hæ¥æ”¯æŒè¶…è¿‡96è¡Œ(ocservé»˜è®¤å€¼)ä½†ä¸è¶…è¿‡200è¡Œ(Cisco AnyConnectæœ€å¤§å€¼)çš„è·¯ç”±è¡¨:
 
 ```
 #define MAX_CONFIG_ENTRIES 96
 ```
 
-96¸ÄÎª200ÒÔÉÏ
+96æ”¹ä¸º200ä»¥ä¸Š
 
-0.10.6 ¼°Ö®ºó°æ±¾ocserv²»ÐèÒªÐÞ¸Ä£¬²Î¿¼[https://gitlab.com/ocserv/ocserv/issues/17](https://gitlab.com/ocserv/ocserv/issues/17)
+0.10.6 åŠä¹‹åŽç‰ˆæœ¬ocservä¸éœ€è¦ä¿®æ”¹ï¼Œå‚è€ƒ[https://gitlab.com/ocserv/ocserv/issues/17](https://gitlab.com/ocserv/ocserv/issues/17)
 
-2¡¢¸ù¾Ý[Cisco¹Ù·½ÎÄµµ](http://www.cisco.com/c/en/us/products/collateral/security/ios-sslvpn/prod_white_paper0900aecd80512071.html)£¬no-routeºÍroute²»ÄÜÍ¬Ê±Ê¹ÓÃ¡£
+2ã€æ ¹æ®[Ciscoå®˜æ–¹æ–‡æ¡£](http://www.cisco.com/c/en/us/products/collateral/security/ios-sslvpn/prod_white_paper0900aecd80512071.html)ï¼Œno-routeå’Œrouteä¸èƒ½åŒæ—¶ä½¿ç”¨ã€‚
 
 ```
 You can specify either split-include or split-exclude, but you cannot specify both options.
 ```
 
-## Ï²Ñ¶
+## å–œè®¯
 
-2015/12/08 DebianÓÐ¹Ù·½ocservÔ´ÁË£º[https://tracker.debian.org/pkg/ocserv](https://tracker.debian.org/pkg/ocserv)
+2015/12/08 Debianæœ‰å®˜æ–¹ocservæºäº†ï¼š[https://tracker.debian.org/pkg/ocserv](https://tracker.debian.org/pkg/ocserv)
 
 ```
 echo 'deb http://ftp.debian.org/debian/ unstable main contrib non-free' >> /etc/apt/sources.list
 apt-get update
 apt-get install ocserv
 ```
-## ÍÆ¹ã
-
-[°áÍß¹¤](https://bandwagonhost.com/aff.php?aff=1366)VPSÍÆ¹ãÁ´½Ó
-
-| Á´½Ó                                              | Ì×²Í                   | ¼Û¸ñ($Äê¸¶)            | ÅäÖÃ                                           |
-|---------------------------------------------------|------------------------|------------------------|------------------------------------------------|
-| https://bandwagonhost.com/aff.php?aff=1366&pid=12 |10G - PROMO|19.99|256MÄÚ´æ¡¢500GBÁ÷Á¿/ÔÂ¡¢10GB SSDÓ²ÅÌ|
-| https://bandwagonhost.com/aff.php?aff=1366&pid=28 |SPECIAL 20G PROMO V3 - PHOENIX AZ|18.99|1024MÄÚ´æ¡¢2000GBÁ÷Á¿/ÔÂ¡¢20GB SSDÓ²ÅÌ|
-| https://bandwagonhost.com/aff.php?aff=1366&pid=34 |SPECIAL 10G PROMO V3 - LOS ANGELES - CHINA DIRECT ROUTE|19.99|512MÄÚ´æ¡¢1000GBÁ÷Á¿/ÔÂ¡¢10GB SSDÓ²ÅÌ|
-| https://bandwagonhost.com/aff.php?aff=1366&pid=36 |SPECIAL 10G PROMO V3 - FREMONT CA|19.99|512MÄÚ´æ¡¢1000GBÁ÷Á¿/ÔÂ¡¢10GB SSDÓ²ÅÌ|
-
-¹ÙÍø±»DNSÎÛÈ¾£¬ÇëÔÚhostsÖÐÌí¼ÓÒÔÏÂÁ½ÐÐ
-
-```
-104.20.6.63	bandwagonhost.com
-104.20.7.63	bandwagonhost.com
-```
-
-[VULTR](https://www.vultr.com/?ref=6923829)VPSÍÆ¹ãÁ´½Ó
-
-| Á´½Ó                                              | ¼Û¸ñ($ÔÂ¸¶)            | ÅäÖÃ                                           |
-|---------------------------------------------------|------------------------|------------------------------------------------|
-| https://www.vultr.com/?ref=6923829 |2.50|1CPU¡¢512MBÄÚ´æ¡¢500GBÁ÷Á¿/ÔÂ¡¢20GB SSDÓ²ÅÌ|
-| https://www.vultr.com/?ref=6923829 |5.00|1CPU¡¢1GBÄÚ´æ¡¢1000GBÁ÷Á¿/ÔÂ¡¢25GB SSDÓ²ÅÌ|
-| https://www.vultr.com/?ref=6923829 |10.00|1CPU¡¢2GBÄÚ´æ¡¢2000GBÁ÷Á¿/ÔÂ¡¢40GB SSDÓ²ÅÌ|
-| https://www.vultr.com/?ref=6923829 |20.00|2CPU¡¢4GBÄÚ´æ¡¢3000GBÁ÷Á¿/ÔÂ¡¢60GB SSDÓ²ÅÌ|
